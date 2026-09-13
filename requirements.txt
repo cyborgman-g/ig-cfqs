@@ -1,0 +1,16 @@
+torch
+torchaudio
+numpy
+pyyaml
+scikit-learn
+captum
+librosa
+soundfile
+pesq
+pystoi
+openai-whisper
+edge-tts
+speechbrain
+transformers
+modelscope
+kaldiio
