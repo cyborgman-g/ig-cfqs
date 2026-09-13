@@ -2,8 +2,6 @@
 
 Code for *Beyond Saliency: Phonetically Disentangled Counterfactuals for Speaker Verification Interpretability*.
 
-This repo does not ship results. Numbers differ across machines (float, TTS voice, GPU).
-
 ## Setup
 
 ```bash
@@ -29,8 +27,7 @@ python main.py --config configs/paper.yaml --all
 
 Models: `ecapa`, `resnet34`, `camplus`, `eres2net`, `wavlm`, `w2vbert`.
 
-Weights download on first use into `pretrained/` (SpeechBrain, ModelScope, Hugging Face). Optional W2V-BERT speaker head: `pretrained/w2vbert/model_lmft_0.14.pth`.
-
+Weights download on first use into `pretrained/` (SpeechBrain, ModelScope, Hugging Face).
 Outputs:
 
 - `outputs/<model>/results.csv`
