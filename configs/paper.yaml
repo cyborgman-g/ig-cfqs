@@ -1,0 +1,20 @@
+data_root: MIX_DATA
+out_dir: outputs
+model: ecapa
+device: null
+seed: 0
+duration: 3
+n_target: 50
+n_impostor: 50
+n_calibrate: 40
+n_baselines: 30
+n_steps: 50
+l2_budget: 5.0
+score_threshold: 0.0
+max_iters: 300
+lr: 0.005
+tau_m: 0.5
+save_wav: false
+baselines: [acoustic_silence, average_speaker, expected_gradients, content_controlled]
+strategies: [masking, transplant, gradient_ascent, random_mask]
+directions: [accept_to_reject, reject_to_accept]
